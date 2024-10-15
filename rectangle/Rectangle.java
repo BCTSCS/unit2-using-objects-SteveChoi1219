@@ -2,6 +2,7 @@ import greenfoot.*;
 public class Rectangle extends Actor {
   private int width;
   private int height;
+  Rectangle partner;
   public Rectangle(int w, int h) {
     width = w;
     height = h;
@@ -13,7 +14,9 @@ public class Rectangle extends Actor {
     getImage().scale(width*10, height*10);
   }
   public Rectangle() {
-    getImage().scale(width*10, height*10);
+      partner = new Rectangle(10,5);
+      System.out.println("Width:" + width + "Height" + height + "Partner: " + partner);
+    //getImage().scale(width*10, height*10);
   }
   public static void main(String args[]) {
     Rectangle r = null;
