@@ -28,4 +28,18 @@ public class Rectangle extends Actor {
       return "Rectangle" + System.identityHashCode(this) + "width " +width+ " height " + height;
 
   }
+  
+  public int getArea() {
+      int area = width * height;
+      return area;
+  }
+  
+  public void printArea() {
+      int area = width * height;
+      System.out.println(area);
+  }
+  
+  public void setHeight(int h) {
+      height = h;
+  }
  }

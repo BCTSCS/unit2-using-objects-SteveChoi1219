@@ -1,9 +1,9 @@
 #Greenfoot project file
 class.Rectangle.image=bathroom-tile.jpg
-editor.fx.0.height=786
-editor.fx.0.width=719
-editor.fx.0.x=721
-editor.fx.0.y=25
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=551
 package.numDependencies=0
 package.numTargets=2
@@ -36,7 +36,7 @@ target2.width=120
 target2.x=0
 target2.y=0
 version=3.1.0
-width=700
+width=837
 world.lastInstantiated=MyWorld
-xPosition=2
-yPosition=25
+xPosition=155
+yPosition=53
