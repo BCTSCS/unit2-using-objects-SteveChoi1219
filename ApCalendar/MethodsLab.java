@@ -13,7 +13,7 @@ public class MethodsLab {
         forLoop(3, 74, 5);
         forLoop(6, 12, 1);
 
-        whileLoop(18);
+        
 
     }
 }
