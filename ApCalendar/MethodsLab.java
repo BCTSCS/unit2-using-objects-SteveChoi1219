@@ -6,7 +6,12 @@ public class MethodsLab {
         System.out.println();
     }
     public static void whileLoop(int number) {
-      
+      int counter = 0;
+      int total = 0;
+      String s = Integer.toString(number);
+      while(counter < s.length()) {
+        
+      }
     }
     public static void main(String[] args) {
         forLoop(2, 90, 5);
