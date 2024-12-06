@@ -51,6 +51,7 @@ public class Gene {
     
     public static void main(String[] args) {
         System.out.println(findStopCodon("ATGCATAGCGCATAG",0));
+        System.out.println(potentialGene("ATGCATAGCGCATAG"));
+        System.out.println(countNucleotides("ATGCATAGCGCATAG", 'A'));
     }
-    
 }
